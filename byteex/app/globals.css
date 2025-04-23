@@ -45,6 +45,10 @@
   --color-tw-light-beige:rgba(249, 240, 229, 1);
   --color-tw-common-white:rgba(255,255,255,1);
   --color-tw-dark-blue:rgba(1, 0, 91, 1);
+  --color-tw-light-blue-900:rgba(21, 0, 91, 1);
+  --color-tw-light-grey-200:rgba(240, 238, 239, 1);
+  --color-tw-dark-blue-21:rgba(21, 0, 91, 1);
+  --color-tw-grey-196:rgba(196, 196, 196, 0.5);
 }
 
 :root {
