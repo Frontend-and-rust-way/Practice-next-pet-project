@@ -8,6 +8,6 @@ export function ImageCompositions() {
         alt="img"
         width={604}
         height={483} 
-        />
+      />
   );
 }

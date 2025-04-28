@@ -3,7 +3,6 @@ export interface IMockKeyFeatures {
     description1: string;
     description2: string;
 }
-
 export interface ImockDataPicture{
     str: string;
 }

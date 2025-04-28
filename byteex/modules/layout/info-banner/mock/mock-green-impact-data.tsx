@@ -1,8 +1,5 @@
-export interface IImpactSummaryItem {
-    icon: string;
-    value: string;
-    description: string;
-  }
+import { IImpactSummaryItem } from "../types/interfaces";
+
 export const greenImpactData:IImpactSummaryItem[] = [
     {
       icon: "/Component 6.png",

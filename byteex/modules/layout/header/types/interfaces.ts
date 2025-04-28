@@ -10,12 +10,10 @@ export interface IMockDataPictures{
   height: number;
   zIndex: number;  
 }
-
 export interface IMockDataList {
   iconUrl:string;
   description:string;
 }
-
 export interface IMockDataPictures{
   src: string;
   alt: string;

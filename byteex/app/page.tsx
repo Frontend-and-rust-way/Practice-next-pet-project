@@ -8,7 +8,6 @@ import { FAQ } from "@/modules/layout/faq/faq";
 import { Footer } from "@/modules/layout/footer/footer";
 
 export default function Home() {
-
   return (
     <>        
         <Header/>

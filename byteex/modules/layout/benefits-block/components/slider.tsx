@@ -9,7 +9,6 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { sliderImages } from '../mock/mock-slider';
 
 export function ImageSlider() {
-
   return (
     <div className={cn("w-[303px] h-[453px] md:w-[433px] md:h-[648px] mx-auto relative")}>
       <button className="text-[rgba(103,104,105,1)] swiper-button-prev-custom absolute left-[-60px] md:left-[-80px] top-1/2 -translate-y-1/2 z-10 rounded-full p-2 ">
