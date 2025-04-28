@@ -1,16 +1,12 @@
 import { cn } from "@/lib/utils";
 import Image from "next/image";
-interface IButtonProps {
-  children?: string;
-  className?: string;
-}
+import { IButtonProps } from "@/interfaces/interface";
 
 export function Button({ children, className }: IButtonProps) {
   return (
     <button
       className={cn(
         `
-
           bg-tw-dark-blue 
           inline-flex
           items-center

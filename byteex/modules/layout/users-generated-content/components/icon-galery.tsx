@@ -14,7 +14,6 @@ export function IconGalery() {
           width={isMobileVersion ? 640 : 1465}
           height={isMobileVersion ? 210 : 262}
         />
-
     </>
   );
 }

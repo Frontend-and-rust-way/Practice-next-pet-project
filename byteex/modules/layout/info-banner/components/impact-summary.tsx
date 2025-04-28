@@ -5,7 +5,8 @@ import { cn } from "@/lib/utils"
 import { useMediaQuery } from "react-responsive"
 
 export function ImpactSummary() {
-    const isMobile = useMediaQuery({maxWidth:650});
+    const isMobile = useMediaQuery({ maxWidth:650 });
+
     return ( 
         <div className="flex flex-col sm:flex-row flex-wrap gap-4">  
             {greenImpactData.map((item, index) => (

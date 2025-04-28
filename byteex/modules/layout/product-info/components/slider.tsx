@@ -1,5 +1,4 @@
 "use client";
-
 import { comfortFeatures } from "../mock/mock-comfort-features";
 import { ChevronLeftIcon, ChevronRightIcon } from "lucide-react";
 import { cn } from "@/lib/utils";

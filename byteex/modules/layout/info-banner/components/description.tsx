@@ -1,9 +1,5 @@
 import { cn } from "@/lib/utils";
-
-interface IDescription{
-    children:string;
-    className?:string
-}
+import { IDescription } from "../types/interfaces";
 
 export function Description({children, className}:IDescription) { 
 

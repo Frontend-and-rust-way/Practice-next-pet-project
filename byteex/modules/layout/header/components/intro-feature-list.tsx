@@ -5,9 +5,8 @@ import { mockDataList } from "../mock/mock-data-into-section";
 import { cn } from "@/lib/utils";
 import { useMediaQuery } from "react-responsive";
 
-
 export function IntroFeaturesList() {
-  const isMobile  = useMediaQuery({maxWidth:1100});
+  const isMobile  = useMediaQuery({ maxWidth:1100 });
 
   return (
     <div className={cn("mt-6 flex flex-col gap-6 ", isMobile ? "items-center justify-center" : "")}>
@@ -31,7 +30,6 @@ export function IntroFeaturesList() {
           Customize Your Outfit
         </Button>
       </div>
-
     </div>
   );
 }

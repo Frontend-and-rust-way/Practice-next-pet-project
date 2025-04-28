@@ -1,6 +1,5 @@
 "use client"
 import { FooterHeadings } from "./components/footer-heading"
-// import { VerticalImageGallery } from "./components/vertical-img-galery"
 import  {VerticalImageGallerys} from "./components/vertical-img-galery"
 import { PaymentInfoBlock } from "./components/payment-info-block"
 import { KeyFeatures } from "./components/key-features"

@@ -1,6 +1,4 @@
-interface IIcOnGalery {
-    src: string;
-}
+import { IIcOnGalery } from "../types/interfaces";
 
 export const iconGalery: IIcOnGalery[] = [
     { src: "/Rectangle 737.png" },

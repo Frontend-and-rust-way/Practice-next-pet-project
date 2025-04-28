@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils"
 import { useMediaQuery } from "react-responsive"
 
 export function BenefitsBlock() {
-  const isSliderPositionChange = useMediaQuery({maxWidth:1200});
+  const isSliderPositionChange = useMediaQuery({maxWidth: 1200});
   
   return (
     <div className="pt-[50px] lg:pt-[20px]">

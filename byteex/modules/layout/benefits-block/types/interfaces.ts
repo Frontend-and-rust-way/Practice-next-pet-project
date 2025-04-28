@@ -1,13 +1,16 @@
 export interface IImages{
-    className?:string;
-    src:string;
-    alt:string;
-    width:number;
-    height:number;
+    className?: string;
+    src: string;
+    alt: string;
+    width: number;
+    height: number;
 }
 
 export interface IFeatures{
-    icon:string,
-    title:string,
-    text:string,
+    icon: string,
+    title: string,
+    text: string,
+}
+export interface IWhyChooseUs {
+    isSliderPositionChange: boolean;
 }

@@ -4,7 +4,6 @@ import { messages } from '../mock/mock-messages';
 
 export function AnnouncementBar() {
   const isMobile = useMediaQuery({ maxWidth: 760 });
-
   const renderContent = () => {
     if (isMobile) {
       return <span>FREE SHIPPING on orders &gt; $200</span>;

@@ -1,10 +1,6 @@
 import { cn } from "@/lib/utils";
 import parse from "html-react-parser";
-import { ReactNode } from "react";
-interface IDescription {
-  children?: ReactNode;
-  className?: string;
-}
+import { IDescription } from "@/interfaces/interface";
 
 export function Description({ children, className }: IDescription) {
   return (

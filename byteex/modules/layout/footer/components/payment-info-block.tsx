@@ -1,8 +1,8 @@
 import { Button } from "@/ui/button"
 import Image from "next/image"
 
-
 export function PaymentInfoBlock() {
+
     return (
         <div className="none sm:inline-flex sm:flex-col items-center gap-[10px] mt-[9px] w-[404px] max-w-full mb-[18px]">
             <Button className="mt-[58px]" />

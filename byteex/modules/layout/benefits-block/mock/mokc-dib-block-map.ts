@@ -14,10 +14,10 @@ export const features:IFeatures[] = [
         icon: "/Component 11.png",
         title: "Responsibly made.",
         text: 
-            `
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Fusce lobortis sapien facilisis tincidunt pellentesque. In eget ipsum et felis finibus consequat.
-            `
+                `
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Fusce lobortis sapien facilisis tincidunt pellentesque. In eget ipsum et felis finibus consequat.
+                `
 
     },
     {

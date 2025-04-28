@@ -25,7 +25,6 @@ export default function AboutMeSection() {
             Customize Your Outfit
           </Button>
         </div>
-
       </div>
     );
   }

@@ -6,13 +6,11 @@ import { cn } from "@/lib/utils";
 import { Button } from "@/ui/button";
 import { RatingDescription } from "../../product-info/components/rating-card";
 import { useMediaQuery } from "react-responsive";
-
-interface IWhyChooseUs {
-    isSliderPositionChange: boolean;
-}
+import { IWhyChooseUs } from "../types/interfaces";
 
 export function WhyChooseUs({ isSliderPositionChange }: IWhyChooseUs) {
     const isMobile = useMediaQuery({maxWidth:1200});
+
     return (
         <div
             className={cn(

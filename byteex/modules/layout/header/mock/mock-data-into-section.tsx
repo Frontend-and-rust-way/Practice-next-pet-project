@@ -1,4 +1,4 @@
-import { IMockDataList } from "../components/Intro-section";
+import { IMockDataList } from "../types/interfaces";
 
 export const mockDataList: IMockDataList[] = [
   {

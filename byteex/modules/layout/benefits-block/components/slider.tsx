@@ -6,17 +6,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import Image from 'next/image';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-
-const sliderImages = [
-  "/image 22 (1).jpg",
-  "/Group 4535.png",
-  "/Group 4535.png",
-  "/Group 4535.png",
-  "/Group 4535.png",
-  "/Group 4535.png",
-  "/Group 4535.png",
-  "/Group 4535.png"
-];
+import { sliderImages } from '../mock/mock-slider';
 
 export function ImageSlider() {
 

@@ -2,6 +2,7 @@ import { mockKeyFeatures } from "../mock/mock-key-features"
 import Image from "next/image"
 
 export function KeyFeatures() {
+    
     return (
         <div className="flex items-center h-[51px] w-[858px] max-w-full justify-center">
             {mockKeyFeatures.map((item, index) => (
