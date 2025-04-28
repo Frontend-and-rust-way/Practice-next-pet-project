@@ -4,7 +4,7 @@ import { FounderMessage } from "@/modules/layout/connect-with-founder/founder-me
 import { ProductUsageOrdering } from "@/modules/layout/product-info/product-usage-ordering";
 import { UserGeneratedContent } from "@/modules/layout/users-generated-content/user-generated-content";  
 import { Infobaner } from "@/modules/layout/info-banner/info-banner";
-import { FAQ } from "@/modules/layout/FAQ/faq";
+import { FAQ } from "@/modules/layout/faq/faq";
 import { Footer } from "@/modules/layout/footer/footer";
 
 export default function Home() {

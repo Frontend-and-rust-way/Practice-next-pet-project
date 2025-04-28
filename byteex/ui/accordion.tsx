@@ -3,7 +3,7 @@ import { useState } from "react";
 import * as AccordionPrimitive from "@radix-ui/react-accordion";
 import { cn } from "@/lib/utils";
 import { Plus, Minus } from "lucide-react";
-import { useFAQStore } from "@/modules/layout/FAQ/store/use-faq-store";
+import { useFAQStore } from "@/modules/layout/faq/store/use-faq-store";
 
 function Accordion({
   ...props
