@@ -1,6 +1,5 @@
 import { cn } from "@/lib/utils";
 import Image from "next/image";
-
 interface IButtonProps {
   children?: string;
   className?: string;
@@ -11,22 +10,26 @@ export function Button({ children, className }: IButtonProps) {
     <button
       className={cn(
         `
+
           bg-tw-dark-blue 
           inline-flex
           items-center
           justify-center
-          w-[356px]
-          max-w-full
+          max-w-[369px]
+          sm:w-[356px]
+          w-full
           h-[56px]
           gap-[10px]
           rounded-[5px]
+          text-tw-common-white
+          md:text-[18px]
+          text-[14px]
+          px-[20px]
         `,
         className
       )}
     >
-      <span className="text-tw-common-white text-[18px]">
         {children || "Customize Your Outfit"}
-      </span>
       <Image
         src="/right-arrow.png"
         alt="right arrow"

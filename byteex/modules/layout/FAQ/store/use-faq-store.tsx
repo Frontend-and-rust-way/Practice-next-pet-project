@@ -1,10 +1,5 @@
 import { create } from "zustand";
-
-interface IUseFAQStore {
-    isPlusIconActive: boolean;
-    setPlusIconTrue: () => void;
-    setPlusIconFalse: () => void;
-}
+import { IUseFAQStore } from "../types/interfaces";
 
 export const useFAQStore = create<IUseFAQStore>((set) => ({
     isPlusIconActive: true,

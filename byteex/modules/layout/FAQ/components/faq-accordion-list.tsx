@@ -8,7 +8,7 @@ import {
   
   export function FAQAccordionList() {
     return (
-      <div className="mt-[55px]">
+      <div className="mt-[55px] w-[630px]">
         {Array.from({ length: 6 }).map((_, index) => (
           <Accordion key={`accordion-${index}`} type="single" collapsible>
             <AccordionItem value={`item-${index}`} >
@@ -18,7 +18,7 @@ import {
                 </Description>
               </AccordionTrigger>
               <AccordionContent>
-                <Description className="text-[rgba(103,104,105,1)] text-[15px]">
+                <Description className="text-[rgba(103,104,105,1)] flex items-center text-[15px]">
                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis sapien
                   facilisis tincidunt pellentesque. In eget ipsum et felis finibus consequat.
                 </Description>

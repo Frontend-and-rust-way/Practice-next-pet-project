@@ -129,7 +129,27 @@
   }
   body {
     @apply bg-background text-foreground;
-
   }
+}
 
+.swiper-button-next,.swiper-button-prev{
+  color: rgba(103, 104, 105, 1) !important;
+  width:10px !important;
+  height:21px !important;
+  margin:0px -40px;
+  display: none;
+}
+
+.swiper-pagination-bullet {
+    background-color:rgba(103,104,105,1);
+}
+
+/* swiper-custom.css */
+.swiper-pagination-bullet {
+  background: #c4c4c4;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background: black;
 }

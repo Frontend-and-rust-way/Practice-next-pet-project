@@ -1,19 +1,20 @@
+"use client"
 import Image from "next/image"
-import { visualCompositionImages } from "../mock/mock-visual-composition"
+import { useMediaQuery } from "react-responsive"
 
 export function VisualComposition() {
+  const isMobile = useMediaQuery({ maxWidth: 640 });
+
   return (
-    <div className="relative bottom-[50px] flex flex-col w-[430px] max-w-full h-[645px]">
-      {visualCompositionImages.map((img, index) => (
-        <Image
-          key={`${img.alt}-${index}`}
-          src={img.src}
-          alt={img.alt}
-          width={img.width}
-          height={img.height}
-          className={img.className}
-        />
-      ))}
-    </div>
+    <>
+    {!isMobile && 
+      <Image
+        src="/Component 5.png"
+        alt="some picture"
+        width={430}
+        height={645}
+      />
+    }
+    </>
   )
 }

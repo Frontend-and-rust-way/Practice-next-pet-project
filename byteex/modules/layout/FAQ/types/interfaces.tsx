@@ -5,3 +5,10 @@ export interface IVisualImage {
     height: number
     className: string
   }
+
+  
+  export  interface IUseFAQStore {
+      isPlusIconActive: boolean;
+      setPlusIconTrue: () => void;
+      setPlusIconFalse: () => void;
+  }
