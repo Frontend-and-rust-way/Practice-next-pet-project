@@ -3,7 +3,6 @@ import { Description } from "@/ui/description"
 import { VisualComposition } from "./components/visual-composition"
 
 export function FAQ() {
-
     return (
         <>
             <Description  className="ml-[85px] text-[32px] ">

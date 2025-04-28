@@ -6,8 +6,7 @@ import {
   } from "@/ui/accordion";
   import { Description } from "@/ui/description";
   
-  export function FAQAccordionList() {
-    
+export function FAQAccordionList() {    
     return (
       <div className="mt-[55px] w-[630px]">
         {Array.from({ length: 6 }).map((_, index) => (

@@ -1,5 +1,5 @@
 import { Description } from "@/ui/description";
-import { aboutMeSpans } from "../mock/mokc-span";
+import { aboutMeSpans } from "../mock/mock-span";
 import { Button } from "@/ui/button";
 import { ImageCompositions } from "./image-composition";
 import { useMediaQuery } from "react-responsive";

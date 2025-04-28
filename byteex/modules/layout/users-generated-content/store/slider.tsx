@@ -1,11 +1,9 @@
 import { create } from "zustand";
-
-interface SliderStore {
+export interface SliderStore {
   indexOfCurrentCard: number;
   incrementCurrentIndexCard: (length: number) => void;
   decrementCurrentIndexCard: () => void;
 }
-
 export const useSliderStore = create<SliderStore>((set, get) => ({
   indexOfCurrentCard: 0,
   incrementCurrentIndexCard: (length: number) => {

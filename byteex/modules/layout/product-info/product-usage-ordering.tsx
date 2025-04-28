@@ -7,7 +7,7 @@ import { SliderCard } from "./components/slider";
 import { useMediaQuery } from "react-responsive";
 
 export function ProductUsageOrdering() {
-  const isMobile = useMediaQuery({maxWidth:800});
+  const isMobile = useMediaQuery({ maxWidth: 800 });
   
   return (
     <div className={

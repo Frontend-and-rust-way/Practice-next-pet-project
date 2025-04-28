@@ -15,7 +15,6 @@ export function UserGeneratedContent() {
     <>
       <UserFeedback />
       <IconGalery />
-
       {isSliderExists ? (
         <Slider />
       ) : (
@@ -32,7 +31,6 @@ export function UserGeneratedContent() {
           </div>
         </div>
       )}
-
       <div className="flex justify-center items-center gap-[40px] w-full">
         <div className="flex flex-col items-center justify-center mt-[63px]">
           <Button />

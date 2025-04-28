@@ -3,7 +3,6 @@ export interface IImpactSummaryItem {
     value: string;
     description: string;
   }
-
 export const greenImpactData:IImpactSummaryItem[] = [
     {
       icon: "/Component 6.png",

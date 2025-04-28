@@ -1,8 +1,6 @@
 import Image from "next/image"
 
-
 export function RatingDescription() {
-
     return  (
               <div className="flex items-center gap-[14px] mt-[24px]">
                 <div className="flex gap-[6px]">

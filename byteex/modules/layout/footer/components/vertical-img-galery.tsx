@@ -1,7 +1,6 @@
 import Image from "next/image";
 
 export function VerticalImageGallerys() {
-
   return ( 
       <Image 
           src={"/Group 6037.png"}

@@ -3,7 +3,6 @@ import { comfortFeatures } from "../mock/mock-comfort-features";
 import { cn } from "@/lib/utils";
 
 export function FeatureCardList() {
-  
   return (  
        <div className="flex items-center justify-center gap-[15px] lg:gap-[41px]">
         {comfortFeatures.map((value, index) => (

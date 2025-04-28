@@ -2,8 +2,8 @@ import { IFeatures } from "../types/interfaces";
 
 export const features:IFeatures[] = [
     {
-        icon:"/eco-cart-Icon.png",
-        title:"Ethically sourced.",
+        icon: "/eco-cart-Icon.png",
+        title: "Ethically sourced.",
         text: 
             `
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.

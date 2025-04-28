@@ -1,4 +1,4 @@
-import { features } from "../mock/mokc-dib-block-map";
+import { features } from "../mock/mock-dib-block-map";
 import { Description } from "@/ui/description";
 import Image from "next/image";
 import { ImageSlider } from "./slider";
@@ -9,7 +9,7 @@ import { useMediaQuery } from "react-responsive";
 import { IWhyChooseUs } from "../types/interfaces";
 
 export function WhyChooseUs({ isSliderPositionChange }: IWhyChooseUs) {
-    const isMobile = useMediaQuery({maxWidth:1200});
+    const isMobile = useMediaQuery({  maxWidth: 1200 });
 
     return (
         <div
@@ -24,9 +24,9 @@ export function WhyChooseUs({ isSliderPositionChange }: IWhyChooseUs) {
 
             {isSliderPositionChange && <ImageSlider />}
 
-            {features.map((value, index) => (
+            {features.map(value => (
                 <div
-                    key={`${value.icon}-${index}`}
+                    key={`${value.icon}`}
                     className={cn("flex flex-col", isSliderPositionChange ? "gap-[20px]" : "gap-[1px]")}
                 >
                     <div
@@ -57,7 +57,6 @@ export function WhyChooseUs({ isSliderPositionChange }: IWhyChooseUs) {
                     {isMobile && <div className=" bg-[rgba(196,196,196,0.5)] m-auto w-[100%] h-[1px]"/> } 
                 </div>
             ))}
-
             {isSliderPositionChange && (
                 <>
                     <Button className="mt-[54px]">Customize Your Outfit</Button>

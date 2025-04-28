@@ -1,6 +1,6 @@
 import { IVisualImage } from "../types/interfaces"
   
-  export const visualCompositionImages: IVisualImage[] = [
+export const visualCompositionImages: IVisualImage[] = [
     {
       src: "/Group 4441.png",
       alt: "some-girl",

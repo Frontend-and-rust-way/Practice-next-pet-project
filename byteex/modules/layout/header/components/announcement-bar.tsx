@@ -8,9 +8,8 @@ export function AnnouncementBar() {
     if (isMobile) {
       return <span>FREE SHIPPING on orders &gt; $200</span>;
     }
-
-    return messages.map((message, index) => (
-      <span key={index}>{message}</span>
+    return messages.map(message => (
+      <span key={message}>{message}</span>
     ));
   };
 
