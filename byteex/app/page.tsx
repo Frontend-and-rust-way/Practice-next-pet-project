@@ -10,6 +10,7 @@ import { Footer } from "@/modules/layout/footer/footer";
 export default function Home() {
   return (
     <>        
+    <h1>hello world </h1>
         <Header/>
         <BenefitsBlock/>
         <FounderMessage/>
